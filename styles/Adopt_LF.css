@@ -1,0 +1,162 @@
+header .navbar-brand .n1{
+    color:green; 
+    font-family: 'Dancing Script', cursive;
+}
+header .navbar-brand .fas{
+    color:green;
+}
+header .navbar-brand .n2{
+    color:rgb(231, 169, 179); 
+    font-family:
+    'Dancing Script', cursive;
+}
+
+footer .container-fluid{
+    background-color:#292b2c;   
+}
+footer .btn{
+    color:white;
+    text-align: left;
+    font-size: 12px;
+    font-size: 1.4vw;
+}
+footer .btn:hover{
+    color:white;
+}
+footer .fas, .fab{
+    color:white;
+}
+footer .social-links .fab{
+    padding-left: 3%;
+}
+footer .main-button{
+    border-bottom: 2px solid rgb(15, 120, 15);
+}
+footer .footer-copyright{
+    background-color: #1a1b1c; 
+    color:white;
+    text-align: center;
+}
+
+.custom-container {
+    width: 95%;
+    background-color: #f0f0f0; 
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h3{
+    font-size:20.8px;
+    font-size:2.3vw;
+}
+h4{
+    font-size:16px;
+    font-size:1.8vw;
+}
+h5{
+    font-size:12.8px;
+    font-size:1.8vw;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size:19px;
+    font-size:1.9vw;
+}
+p2 {
+    font-size:20px;
+    font-size:2vw;
+    font-weight: bold;
+}
+p3 {
+    font-size: 20px;
+    font-size: 3vw;
+    font-weight: bold;
+    color: red;
+    position: relative;
+    padding: 1vw;
+}
+p4 {
+    font-size: 20px;
+    font-size: 3vw;
+    font-weight: bold;
+    color: blue;
+    position: relative;
+    padding: 1vw;
+}
+
+h2 {
+    font-size:20px;
+    font-size:2.5vw;
+}
+.banner {
+    text-align: center;
+    color: Black; 
+    background-image: url(../images/Adopt_LF_banner.jpg);
+    background-size: 100%;
+    height: 20vw;
+    background-repeat: no-repeat;
+    margin-bottom: -10px;
+    padding: 0;
+}
+.banner h1 {
+    font-size:34px;
+    font-size:4vw;
+}
+.banner2 {
+    text-align: center;
+    color: Black; 
+    background-image: url(../images/adoption.jpg);
+    background-size: 100%;
+    height: 20vw;
+    background-repeat: no-repeat;
+    margin-bottom: -10px;
+    padding: 0;
+}
+.banner2 h1 {
+    font-size:34px;
+    font-size:4vw;
+}
+.section {
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    max-width: 80vw;
+    border-radius: 8px;
+    background-color: #eaeaea;
+    margin: 2vw;
+    position: relative;
+}
+.img-container {
+    flex: 1;
+    padding: 1vw;
+    text-align: center;
+    max-width: 70vw;
+}
+.img-container img{
+    max-width: 35vw;
+    max-height: 45vw;
+    border: solid 1px;
+}
+.description {
+    flex: 1;
+    text-align: left;
+    width: 42vw;
+    padding: 1.5vw;
+}
+#link{
+    color: #1a1b1c;
+}
+#link:hover {
+    color: grey; 
+    text-decoration: none;
+}
+label {
+    font-weight: bold;
+    color: black;
+}

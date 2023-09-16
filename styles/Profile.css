@@ -1,0 +1,233 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size:12px;
+    font-size:1.4vw;
+}
+table.table{
+    width: 100%;
+    margin-bottom: 1vw;
+    border: none;
+}
+table.table td {
+    padding: 1vw;
+    border: none;
+    vertical-align: middle;
+}
+table.table h2 {
+    font-size:20px;
+    font-size:2.5vw;
+}
+.banner {
+    text-align: center;
+    color: Black; 
+    background-color: white;
+    margin-bottom: -10px;
+    padding: 0;
+}
+.banner h1 {
+    font-size:24px;
+    font-size:3.5vw;
+}
+.banner2 {
+    text-align: left;
+    color: Black; 
+    background-image: url(../ProVideos/catbanner1.jpg);
+    background-size: 100%;
+    height: 20vw;
+    background-repeat: no-repeat;
+    margin-bottom: 2vw;
+    padding: 2vw;
+}
+.banner2 h1 {
+    font-size:40px;
+    font-size:4vw;
+}
+.bannerimg {
+    background-image: url(../ProVideos/dogbanner1.jpg);
+    background-size: 100%;
+    height: 11vw;
+    background-repeat: no-repeat;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.video-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+    border: solid 1px;
+    border-radius: 8px;
+    background-color: #eaeaea;
+    margin: 1vw;
+    font-size: 1.3vw;
+}
+.video-container {
+    flex: 1;
+    padding: 1vw;
+    text-align: center;
+    
+}
+.video-container img{
+    max-width: 25vw;
+    max-height: 35vw;
+    border: solid 1px;
+}
+.container .video-container video {
+    max-width: 350px;
+    max-height: 400px;
+    border: double 5px;
+}
+.description {
+    flex: 1;
+    text-align: left;
+    width: 15vw;
+    padding: 1vw;
+}
+#link{
+    color: #1a1b1c;
+}
+#link:hover {
+    color: grey; 
+    text-decoration: none;
+}
+.learnmore-button-1:hover,
+.learnmore-button-2:hover,
+.learnmore-button-3:hover,
+.learnmore-button-4:hover,
+.learnmore-button-5:hover,
+.learnmore-button-6:hover {
+    background-color: green; 
+    color: white;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    
+}
+.modal .modal-content {
+    padding-bottom: 1vw;
+    width: 850px;
+    height:fit-content;
+    max-width: 75vw;
+    max-height: 68vw;
+    box-shadow: 0px 4px 8px #e9ecef;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.modal-content .video-container video {
+    max-width: 28vw;
+    max-height: 32vw;
+    border: double 5px;
+}
+.modal-content h2 {
+    background-color: rgb(197, 190, 190); 
+    padding: 1vw;
+    font-size:25px;
+    font-size:2.7vw;
+}
+.modal-content h3 {
+    font-size:25px;
+    font-size:2.8vw;
+}
+table.table2{
+    width: 100%;
+    border: none;
+}
+table.table2 th {
+    border: none;
+    max-width: 200px;
+    font-size:10px;
+    font-size:1.4vw;
+    padding: 0 8px;
+}
+table.table2 td {
+    border: none;
+    max-width: 200px;
+    font-size:8px;
+    font-size:1.2vw;
+    padding: 0 0 0 8px;
+}
+.close-button {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.close-button:hover {
+    background-color: red;
+    color: #fff;
+}
+.border-link {
+    display: inline-block;
+    margin: 20px;
+    padding: 0.5vw 1vw;
+    font-size: 16px;
+    font-size: 1.5vw;
+    border: 1px solid #333; 
+    border-radius: 5px; 
+    background-color: #9ede84; 
+    color: #333; 
+    text-decoration: none; 
+    cursor: pointer; 
+}
+.border-link:hover {
+    background-color: green; 
+    color: #fff; 
+    text-decoration: none;
+}
+header .navbar-brand .n1{
+    color:green; 
+    font-family: 'Dancing Script', cursive;
+}
+header .navbar-brand .fas{
+    color:green;
+}
+header .navbar-brand .n2{
+    color:rgb(231, 169, 179); 
+    font-family: 'Dancing Script', cursive;
+}
+footer .container-fluid{
+    background-color:#292b2c;   
+}
+footer .btn{
+    color:white;
+    text-align: left;
+    font-size: 12px;
+    font-size: 1.4vw;
+}
+footer .btn:hover{
+    color:white;
+}
+footer .fas, .fab{
+    color:white;
+}
+footer .social-links .fab{
+    padding-left: 3%;
+}
+footer .main-button{
+    border-bottom: 2px solid rgb(15, 120, 15);
+}
+footer .footer-copyright{
+    background-color: #1a1b1c; 
+    color:white;
+    text-align: center;
+}

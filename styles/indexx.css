@@ -1,0 +1,166 @@
+
+footer .fas{
+    font-size: 1.4vw;
+}
+h3 {
+    font-size: 20px;
+    font-size: 2.3vw;
+}
+h4 {
+    font-size: 15px;
+    font-size: 1.4vw;
+}
+h5 {
+    font-size: 12.8px;
+    font-size: 1.4vw;
+}
+p,
+.footer-copyright {
+    font-size: 12px;
+    font-size: 1.4vw;
+}
+.btn {
+    font-size: 12px;
+    font-size: 1.4vw;
+}
+header .navbar-brand .n1{
+    color:green; 
+    font-family: 'Dancing Script', cursive;
+}
+header .navbar-brand .fas{
+    color:green;
+}
+header .navbar-brand .n2{
+    color:rgb(231, 169, 179); 
+    font-family: 'Dancing Script', cursive;
+}
+.custom-card-overlay {
+    top: 65%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: rgb(41, 41, 41);
+    padding: 10px;
+}
+header .position-relative img {
+    width: 100%;
+    height: auto;
+}
+header .position-relative h3 {
+    font-size: 75px;
+    font-size: 8vw;
+    font-weight: 600%;
+    font-family: 'Caveat Brush', cursive;
+    text-shadow: 2px, 2px, rgb(155, 151, 148);
+}
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+#slides2 .btn:hover, #slides3 .btn:hover{
+    transform: translateY(-8px);
+}
+.carousel-control-prev-icon {
+    filter: invert(1);
+}
+
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+#slides2, #slides3,
+#aboutus h3 {
+    font-size: 20px;
+    font-size: 1.4vw;
+}
+.card-img-top {
+    overflow: hidden;
+    transition: all 1.0s ease;
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+#slides2 img, #slides3 img{
+    width: 100%;
+    height: 300px;
+}
+@media(max-width:500px) {
+
+    #slides2 img, #slides3 img{
+        width: 100%;
+        height: 180px;
+    }
+}
+#slides2 .carousel-caption h3, #slides3 .carousel-caption h3{
+    font-weight: strong;
+    color: black;
+}
+#slides2 .carousel-caption h5, #slides3 .carousel-caption h5{
+    color: black;
+}
+#slides2 .carousel-caption p, #slides3 .carousel-caption p{
+    color: black;
+}
+#part4 {
+    position: relative;
+}
+#part4 img {
+    height: 380px;
+}
+@media(max-width:500px) {
+    #part4 img {
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+#part4 .wrapper {
+    padding-top: 55%;
+}
+#aboutus h3 {
+    text-align: center;
+}
+#aboutus p {
+    text-align: center;
+    padding-right: 20%;
+    word-wrap: break-word;
+    padding-left: 20%;
+}
+.info {
+    display: flex;
+    align-items: center;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+footer .container-fluid {
+    background-color: #292b2c;
+}
+footer .btn {
+    color: white;
+    text-align: left;
+}
+footer .btn:hover {
+    color: white;
+}
+footer .fas,
+.fab {
+    color: white;
+}
+footer .social-links .fab {
+    padding-left: 3%;
+}
+footer .main-button {
+    border-bottom: 2px solid rgb(15, 120, 15);
+}
+footer .footer-copyright {
+    background-color: #1a1b1c;
+    color: white;
+    text-align: center;
+}
